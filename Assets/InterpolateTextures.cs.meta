@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 804130c0df8c13e4e94a0536fc777531
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - basis0: {fileID: 2800000, guid: dc40fc23a5240da4f8948351056e577e, type: 3}
+  - basis1: {fileID: 2800000, guid: fb0403693c76e054290427f2046a9d30, type: 3}
+  - basis2: {fileID: 2800000, guid: b376b42faa6037e4cac382c4757affe0, type: 3}
+  - basis3: {fileID: 2800000, guid: e8b8f289028f9044b9580c6e7dbc4f2d, type: 3}
+  - basis4: {fileID: 2800000, guid: 465420e891b160c46aff33f5635c2998, type: 3}
+  - basis5: {fileID: 2800000, guid: 9427201530bac424bacecfc69c5925f7, type: 3}
+  - basis6: {fileID: 2800000, guid: 5783c92cc922b534b805c18315311fe0, type: 3}
+  - basis7: {fileID: 2800000, guid: 349791e3446f13f4ebe8c556ebb7c89c, type: 3}
+  - basis8: {fileID: 2800000, guid: a7a1638dd86b3fa42b1ca88fa159e257, type: 3}
+  - basis9: {fileID: 2800000, guid: 00e94eabf516085488ccab5742dbd968, type: 3}
+  - basis10: {fileID: 2800000, guid: 4e1e0dae8e9645d49b5ae6c1662593ce, type: 3}
+  - basis11: {fileID: 2800000, guid: fc8bc69336f838d4c9926565eab8c2d2, type: 3}
+  - basis12: {fileID: 2800000, guid: a197fd147a8a60446bb5848e1e9f4eec, type: 3}
+  - basis13: {fileID: 2800000, guid: c9a7530637723ca4fa87f0bbc90efc97, type: 3}
+  - basis14: {fileID: 2800000, guid: 5e8ef2b8792c1d24e8afb0b1e6cd7fea, type: 3}
+  - basis15: {fileID: 2800000, guid: 19a8232183b2e244b9763bf53b0b8afa, type: 3}
+  - gobject: {instanceID: 0}
+  - objectrenderer: {instanceID: 0}
+  - targettexture: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,9 @@
+# Exported from 3D Builder
+
+newmtl MAT_Lakshmi_Statue_Body_0
+Kd 1.000000 1.000000 1.000000
+map_Kd MAT_Lakshmi_Statue_Body_baseColor_17832851910588591680.png
+
+newmtl MAT_Lakshmi_Statue_Acsesory_0
+Kd 1.000000 1.000000 1.000000
+map_Kd MAT_Lakshmi_Statue_Acsesory_baseColor_14126322532748253036.png
