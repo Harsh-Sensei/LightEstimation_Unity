@@ -218,7 +218,7 @@ public class InterpolateTextures : MonoBehaviour
 
         golocation = GameObject.Find ("SpawnManager");
         SpawnableManager SpawnableManager = golocation.GetComponent <SpawnableManager> ();
-        transform.position = SpawnableManager.hitlocation +  Vector3.left*0.2f;
+        transform.position = SpawnableManager.hitlocation +  Vector3.left*0.4f;
 
         //Interpolate
     }

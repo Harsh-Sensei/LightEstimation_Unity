@@ -429,9 +429,9 @@ public class CameraImageExample : MonoBehaviour
         whiteSH[2,0]=1f;
         FinalOutput= "Coefficients Set";
         RenderSettings.ambientMode = AmbientMode.Skybox;
-        RenderSettings.ambientProbe = sphericalHarmonics;
+        //RenderSettings.ambientProbe = sphericalHarmonics;
         FinalOutput= "Ambient light set";
-        // RenderSettings.ambientProbe = whiteSH;
+        RenderSettings.ambientProbe = whiteSH;
 
         //FinalOutput="Time for Regression "+ deltime.ToString()+" Values "+solx[0].ToString()+" "+solx[1].ToString()+" "+solx[2].ToString()+" old width "+oldwidth.ToString()+" old height "+oldheight.ToString();
         

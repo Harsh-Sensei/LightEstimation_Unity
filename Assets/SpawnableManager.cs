@@ -16,6 +16,7 @@ public class SpawnableManager : MonoBehaviour
 
     private int spawncount;
     public Vector3 hitlocation;
+    public bool can_reposition = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,22 +40,29 @@ public class SpawnableManager : MonoBehaviour
             if(Input.GetTouch(0).phase == TouchPhase.Began && spawncount==0)
             {
                 SpawnPrefab(m_Hits[0].pose.position);
-                spawncount+=1;
-            }
-            if(Input.GetTouch(0).phase == TouchPhase.Began && spawncount==1)
-            {
                 hitlocation = m_Hits[0].pose.position;
                 spawncount+=1;
             }
-
-            else if(Input.GetTouch(0).phase == TouchPhase.Moved && spawnedObject != null)
+            else if(Input.GetTouch(0).phase == TouchPhase.Began && can_reposition && spawnedObject != null)
             {
                 spawnedObject.transform.position = m_Hits[0].pose.position;
+                hitlocation = m_Hits[0].pose.position;
+                can_reposition = false;
             }
-            if(Input.GetTouch(0).phase == TouchPhase.Ended)
-            {
-                spawnedObject = null;
-            }
+            // if(Input.GetTouch(0).phase == TouchPhase.Began && spawncount==1)
+            // {
+            //     hitlocation = m_Hits[0].pose.position;
+            //     spawncount+=1;
+            // }
+
+            // else if(Input.GetTouch(0).phase == TouchPhase.Moved && spawnedObject != null)
+            // {
+            //     spawnedObject.transform.position = m_Hits[0].pose.position;
+            // }
+            // if(Input.GetTouch(0).phase == TouchPhase.Ended)
+            // {
+            //     spawnedObject = null;
+            // }
         }
     }
 
