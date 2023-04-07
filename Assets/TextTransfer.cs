@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class TextTransfer : MonoBehaviour
 {
     private string FinalOutput;
-    
 
     public GameObject textDisplay;
 
